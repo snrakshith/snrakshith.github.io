@@ -1,0 +1,41 @@
+{
+  "title": "Resume",
+  "name": "website",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "gh-pages -d dist",
+    "build": "parcel index.html"
+  },
+  "description": "Website",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "",
+  "bugs": {
+    "url": "",
+    "email": "snrakshith.97@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Rakshith",
+  "contributors": [
+    "Rakshith"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.10.2",
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "jquery.easing": "^1.4.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7"
+  }
+}
