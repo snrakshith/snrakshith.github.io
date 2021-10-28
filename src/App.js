@@ -1,7 +1,15 @@
+import Main from "./pages/Main";
+import Footer from "./pages/Footer";
+import About from "./pages/About";
+import Resume from "./pages/Resume";
+
 function App() {
   return (
     <div className="App">
-      <p>Welcome to my website</p>
+      <Main />
+      <About />
+      <Resume />
+      <Footer />
     </div>
   );
 }
